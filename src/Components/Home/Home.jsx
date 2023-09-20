@@ -4,9 +4,9 @@ import Footer from "../Footer/Footer";
 const Home = () => {
   return (
     <div className="container mx-auto">
-      <div className="flex justify-between p-4 shadow-lg bg-slate-200 items-center content-center">
+      <div className="md:flex md:justify-between p-4 shadow-lg bg-slate-200 items-center content-center">
         <h2 className="text-4xl font-bold">Amazoon</h2>
-        <div className="flex gap-5 text-2xl font-bold  ">
+        <div className="grid text-center md:flex gap-5 text-2xl font-bold  ">
           {/* <Link to="/">Home</Link> */}
           <NavLink
             to="/"
